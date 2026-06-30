@@ -1,0 +1,12 @@
+[package]
+name = "multi_keychain_examples"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "address_generation"
+path = "src/address_generation.rs"
+
+
+[dependencies]
+bdk_wallet = {git = "https://github.com/110CodingP/bdk_wallet", rev = "refs/pull/1/head"}
