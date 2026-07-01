@@ -7,6 +7,9 @@ edition = "2024"
 name = "address_generation"
 path = "src/address_generation.rs"
 
+[[bin]]
+name = "bitcoin_core_wallet"
+path = "src/bitcoin_core_wallet.rs"
 
 [dependencies]
 bdk_wallet = {git = "https://github.com/110CodingP/bdk_wallet", rev = "refs/pull/1/head"}
